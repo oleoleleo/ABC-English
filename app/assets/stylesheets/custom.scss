@@ -1,0 +1,316 @@
+// ===================================================
+        // ADMINボタン
+// ===================================================
+
+
+.btn-admin {
+  color: #fff;
+  border: 1px solid #fff;
+  padding-top: 5px 0;
+  font-size: 15px;
+  background-color: #1E90FF;
+  border-radius: 5px;
+  width: 30px;
+}
+
+
+
+// ===================================================
+        // 共通アイテム：ナビゲーションバー / サブメニュー
+// ===================================================
+
+.navbar-transparent {
+  margin-bottom: 0px;
+  background-color: rgba(0,0,0,0.5);
+  a {
+    color: #fff !important;
+  }
+
+  .top-logo {
+    display: inline-block;
+    margin: auto 0;
+    position: fixed;
+    top: 15px;
+    float: left;
+  }
+
+  .login-user {
+    position: fixed;
+    left: 300px;
+    top: 30px;
+  }
+
+  .navbar-brand {
+    padding: 0px;
+    margin-top: 15px;
+  }
+
+  img {
+    height: 40px;
+  }
+}
+
+
+.submenu {
+  color: #000;
+  display: block;
+  float: left;
+  width: 250px;
+  height: 30px;
+  padding: 0 10px 200px 10px;
+  margin-right: 10px;
+  background-color: #FF9900;
+  border-radius: 5px;
+
+  .submenu h2 {
+    margin-top: 0;
+  }
+}
+
+.submenu-list li a{
+  font-size: 20px;
+  color: white;
+}
+
+// ===================================================
+        // 共通アイテム：レイアウト
+// ===================================================
+
+.bg {
+  background-image: url('../assets/photo03.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  // background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.7;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+
+.main {
+  display: block;
+  float: left;
+  width: 690px;
+  margin: 0;
+  background-color: #FF9900;
+  padding: 10px;
+  // border: 2px outset;
+  border-radius: 5px;
+
+  .main h1 {
+    display: inline-block;
+    color: #000;
+    margin-top: 0;
+  }
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+
+// ===================================================
+        // トップ画面
+// ===================================================
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+h1, h2 {
+  font-weight: 100;
+}
+
+.text-white span {
+  font-weight: 600;
+  font-size: 100px;
+  color: #000000;
+  border-bottom: 5px ridge #FF9900;
+}
+
+.text-white {
+  color: #000000;
+}
+
+.btn-white {
+  color: #fff;
+  border: 1px solid #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 20px;
+  background-color: #FF9900;
+  border-radius: 5px;
+
+  &:hover {
+    color: #FF9900;
+    border: 1px solid #FF9900;
+    background-color: #FFEEFF;
+  }
+}
+
+.top-hero-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #FFFFDD;
+}
+
+.top-hero-container {
+  padding-top: 220px;
+  h1 {
+    font-size: 56px;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    margin-bottom: 60px;
+  }
+}
+
+// ===================================================
+        // ユーザ登録画面
+// ===================================================
+
+
+.users-new-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #FFFFDD;
+
+  .users-new-container {
+    padding-top: 220px;
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.alert {
+  margin-bottom: 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+}
+
+// ===================================================
+        // ホーム画面
+// ===================================================
+
+.home-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #FFFFDD;
+}
+
+.home-container {
+  padding-top: 220px;
+}
+
+// ===================================================
+        // ギャラリー用写真投稿画面
+// ===================================================
+
+
+.topic-new-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #FFFFDD;
+}
+
+.btn-black {
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 20px;
+  background-color: #FF9900;
+
+  &:hover {
+    color: #FF9900;
+    border: 1px solid #FF9900;
+    background-color: #FFEEFF;
+  }
+}
+
+.topic-new-wrapper {
+  padding-top: 120px;
+}
+
+
+// ===================================================
+        // ギャラリー画面
+// ===================================================
+
+
+.topic-index-wrapper {
+  width: 100vw;
+  height: 170vh;
+  background-color: #FFFFDD;
+
+  .topic-index-single {
+    width:120px;
+    height:130px;
+    display: block;
+    float: left;
+    margin: 0 5px 5px 0;
+  }
+
+  .frame{
+    width:120px;
+    height:130px;
+    font-size:0;
+    background-color: #FFFFDD;
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+    text-align: center;
+}
+.frame:before{
+    content:"";
+    display: inline-block;
+    height:100%;
+    vertical-align: middle;
+}
+
+
+  img {
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+  }
+}
+
+
+// ===================================================
+        // スケジュール画面
+// ===================================================
+
+
+.schedule-top-wrapper {
+  width: 100vw;
+  height: 170vh;
+  background-color: #FFFFDD;
+}
+
+iframe {
+  width: 670px;
+  height: 560px;
+  border-style: none;
+}
+
+
+
+
+// ===================================================
+        // フッター
+// ===================================================
+
+footer {
+  background-color: #FFFFDD;
+
+  footer p {
+    margin: 0;
+    text-align: right;
+  }
+}
